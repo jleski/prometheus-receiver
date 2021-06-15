@@ -1,0 +1,9 @@
+[package]
+name = "prometheus-receiver"
+version = "0.1.0"
+authors = ["jle"]
+edition = "2018"
+
+[dependencies]
+rocket = { version = "0.5.0-rc.1", features = ["json"] }
+serde = { version = "1.0.126", features = ["derive"] }
